@@ -1,0 +1,5 @@
+{
+  "app": "ts-node cdk/app.ts",
+  "context": {
+  }
+}
