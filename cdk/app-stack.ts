@@ -28,10 +28,10 @@ export class AppStack extends cdk.Stack {
       networkMode: ecs.NetworkMode.AWS_VPC,
     });
     taskDefinition.addContainer("Container", {
-      image: ecs.ContainerImage.fromAsset(""),
+      image: ecs.ContainerImage.fromAsset("."),
       portMappings: [
         {
-          containerPort: 8056,
+          containerPort: 8080,
         },
       ],
     });

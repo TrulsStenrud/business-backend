@@ -4,8 +4,9 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "synt": "cdk synth --json",
-    "synt": "cdk deploy"
+    "synth": "cdk synth --json",
+    "deploy": "cdk deploy",
+    "bootstrap": "cdk bootstrap"
   },
   "devDependencies": {
     "@types/aws-lambda": "8.10.109",

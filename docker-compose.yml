@@ -7,5 +7,6 @@ services:
       args:
         service_name: bussiness
         service_namespace: gutta-consulting
+    image: bussiness-api
     ports:
       - "8080:8080" # http://localhost:8086/health

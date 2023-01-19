@@ -5,6 +5,7 @@ RUN set -eux; \
     mkdir /app; \
     chown app /app
 
+ENV SERVICE_PORT=8080
 EXPOSE 8080
 
 USER app
