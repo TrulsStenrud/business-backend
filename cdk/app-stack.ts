@@ -83,9 +83,8 @@ export class AppStack extends cdk.Stack {
     })
 
     const httpListener = loadBalancer.addListener("HttpListener", {
-      // sslPolicy: elb.SslPolicy.TLS12,
       protocol: elb.ApplicationProtocol.HTTP,
-      port: 443,
+      port: 80,
       certificates: undefined,
       defaultTargetGroups: [targetGroup],
     })
@@ -100,6 +99,5 @@ export class AppStack extends cdk.Stack {
         targetGroups: [targetGroup],
       },
     )
-
   }
 }

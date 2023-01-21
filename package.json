@@ -6,7 +6,7 @@
     "lint:fix": "eslint --fix .",
     "synth": "cdk synth --json",
     "diff": "cdk diff",
-    "deploy": "cdk deploy",
+    "deploy": "cdk deploy --require-approval never",
     "bootstrap": "cdk bootstrap"
   },
   "devDependencies": {
