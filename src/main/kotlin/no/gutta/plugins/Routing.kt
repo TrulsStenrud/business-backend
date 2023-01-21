@@ -9,7 +9,7 @@ import io.ktor.server.routing.routing
 fun Application.configureRouting() {
   routing {
     get("/") {
-      call.respondText("Hello World!")
+      call.respondText("Hello World!!!")
     }
 //    openAPI(path = "openapi") TODO
   }
