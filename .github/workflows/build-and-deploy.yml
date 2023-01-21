@@ -5,6 +5,7 @@ on:
       - main
 jobs:
   build-and-deploy:
+    concurrency: bussiness-backend
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
