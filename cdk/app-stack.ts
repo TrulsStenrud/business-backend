@@ -60,7 +60,7 @@ export class AppStack extends cdk.Stack {
       desiredCount: 1,
       enableExecuteCommand: true,
       securityGroups: [securityGroup],
-      assignPublicIp: false,
+      assignPublicIp: true,
     });
 
 
