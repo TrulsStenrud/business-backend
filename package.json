@@ -7,25 +7,19 @@
     "synth": "cdk synth --json",
     "diff": "cdk diff",
     "deploy": "cdk deploy --require-approval never",
+    "destroy": "cdk destroy",
     "bootstrap": "cdk bootstrap"
   },
   "devDependencies": {
-    "@types/aws-lambda": "8.10.109",
-    "@types/jest": "29.2.3",
     "@types/node": "18.11.9",
-    "@typescript-eslint/eslint-plugin": "5.45.0",
-    "@typescript-eslint/parser": "5.45.0",
-    "aws-cdk": "2.53.0",
+    "aws-cdk": "2.63.2",
     "eslint": "8.28.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.2.1",
-    "prettier": "2.8.0",
     "ts-node": "10.9.1",
     "typescript": "4.9.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.53.0",
-    "constructs": "10.1.175",
-    "source-map-support": "0.5.21"
+    "@aws-cdk/aws-apprunner-alpha": "2.63.2-alpha.0",
+    "aws-cdk-lib": "2.63.2",
+    "constructs": "10.1.175"
   }
 }
