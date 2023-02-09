@@ -1,10 +1,9 @@
-import { DockerImageAsset, NetworkMode } from "aws-cdk-lib/aws-ecr-assets";
-import { Stack, StackProps } from "aws-cdk-lib";
+import {DockerImageAsset, NetworkMode} from "aws-cdk-lib/aws-ecr-assets";
+import {Stack, StackProps} from "aws-cdk-lib";
 import * as apprunner from "@aws-cdk/aws-apprunner-alpha";
-import { Construct } from "constructs";
+import {Construct} from "constructs";
 
 interface AppStackProps extends StackProps {
-  optional?: string;
 }
 
 export class AppStack extends Stack {
